@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1435934971 source:a:\c++\hanxin\input.in.c
+
+1435934920 source:a:\c++\hanxin\output.out.c
+
+1435938817 source:a:\c++\hanxin\main.cpp
+	<stdio.h>
+	<iostream>
+

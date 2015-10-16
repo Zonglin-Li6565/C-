@@ -1,0 +1,15 @@
+22:37:15 **** Incremental Build of configuration Debug for project Make_change ****
+make all 
+Building file: ../src/Make_change.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Make_change.d" -MT"src/Make_change.d" -o "src/Make_change.o" "../src/Make_change.cpp"
+Finished building: ../src/Make_change.cpp
+ 
+Building target: Make_change
+Invoking: GCC C++ Linker
+g++  -o "Make_change"  ./src/Make_change.o   
+Finished building target: Make_change
+ 
+
+22:37:15 Build Finished (took 440ms)
+

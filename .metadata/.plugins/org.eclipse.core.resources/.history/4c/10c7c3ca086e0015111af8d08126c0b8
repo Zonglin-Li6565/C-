@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : The_Triangle.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+	int n;
+	int* _dptable, * _input, inputlength;
+	scanf("%d", &n);
+	inputlength = (1 + n) * n / 2;
+	_dptable = new int[n * n];
+	_input = new int[inputlength];
+	for(int i = 0; i < inputlength; i++) {
+		scanf("%d", _input + i);
+	}
+
+	return 0;
+}

@@ -1,0 +1,12 @@
+BiBTeXTemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+builderNum=2
+cmd.TexColor=114,159,207
+crl.TexColor=136,138,133
+def.TexColor=211,215,207
+eclipse.preferences.version=1
+equ.TexColor=237,212,0
+outputFormat=pdf
+spe.TexColor=245,121,0
+sqr.TexColor=138,226,52
+styleCompletionSet=roman\=\\textrm{,sans serif\=\\textsf{,small caps\=\\textsc{,teletype\=\\texttt{,bold\=\\textbf{,emphasize\=\\emph{,italic\=\\textit{,slanted\=\\textsl{
+verb.TexColor=114,159,207

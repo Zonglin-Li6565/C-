@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1440189276 source:a:\c++\hangman judge_uva489\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+

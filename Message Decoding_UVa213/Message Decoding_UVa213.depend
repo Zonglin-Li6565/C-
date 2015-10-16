@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1441325715 source:a:\c++\message decoding_uva213\main.cpp
+	<stdio.h>
+	<string.h>
+

@@ -1,0 +1,24 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\title{Condition My Friend}
+\date{Oct 10 2015}
+\author{Zonglin Li}
+
+\begin{document}
+\maketitle
+
+
+\section{Title}
+
+\subsection{Subtitle}
+
+Plain text.
+
+\subsection{Another subtitle}
+
+More plain text.
+
+
+\end{document}

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1441465236 source:a:\c++\hangover_poj1003\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+

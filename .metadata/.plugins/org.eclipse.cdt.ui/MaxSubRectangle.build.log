@@ -1,0 +1,15 @@
+12:02:42 **** Incremental Build of configuration Debug for project MaxSubRectangle ****
+make all 
+Building file: ../src/MaxSubRectangle.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/MaxSubRectangle.d" -MT"src/MaxSubRectangle.d" -o "src/MaxSubRectangle.o" "../src/MaxSubRectangle.cpp"
+Finished building: ../src/MaxSubRectangle.cpp
+ 
+Building target: MaxSubRectangle
+Invoking: GCC C++ Linker
+g++  -o "MaxSubRectangle"  ./src/MaxSubRectangle.o   
+Finished building target: MaxSubRectangle
+ 
+
+12:02:42 Build Finished (took 330ms)
+

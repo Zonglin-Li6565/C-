@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1442946860 source:/media/zonglin/Programming/C++/problem2_CS196/main.cpp
+	<iostream>
+	<cmath>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1442591368 source:a:\c++\eliminate\main.cpp
+	<iostream>
+	<stdio.h>
+

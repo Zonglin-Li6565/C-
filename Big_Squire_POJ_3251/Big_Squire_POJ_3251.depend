@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1441680686 source:a:\c++\big_squire_poj_3251\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+	<math.h>
+
+1441680686 
+
+1441677086 source:/media/zonglin/Programming/C++/Big_Squire_POJ_3251/main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+	<math.h>
+

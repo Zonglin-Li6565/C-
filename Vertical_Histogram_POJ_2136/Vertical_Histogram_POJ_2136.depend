@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1441856164 source:a:\c++\vertical_histogram_poj_2136\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+	<math.h>
+

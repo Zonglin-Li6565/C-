@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1442594331 source:a:\c++\rpn_calculator\main.cpp
+	<iostream>
+	<stdio.h>
+	<vector>
+

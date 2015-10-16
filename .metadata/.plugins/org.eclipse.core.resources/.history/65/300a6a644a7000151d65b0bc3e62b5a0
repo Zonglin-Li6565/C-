@@ -1,0 +1,40 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\title{Condition My Friend}
+\date{Oct 10 2015}
+\author{Zonglin Li}
+
+\begin{document}
+\maketitle
+
+\section{Who I want to condition}
+I want to condition my friend Neo to avoid watching a silly
+vedio called Mr.Sun. He has been watching it for several monthes, and he watches
+it everynight.
+
+\section{Why I want to change that behavior}
+Since that vedio is really silly and has no benifit for him, and watching it
+again and again takes him a lot of time supposed to used on other more
+productive things like studying and exercising, I decided to help him.
+	
+\section{Conditioning}
+
+	\subsection{The process}
+	Since Neo is generally watching the Mr.Sun at 8 to 10 p.m. everynight, I
+	decided to employ my conditioning technique \textbf{after} 10 p.m, by giving him sugger
+	if he doesn't watch Mr.Sun and study or exercses instead. I am going
+	to train him for \textbf{four weeks}. In the first week, I will use continuous
+	reinforcement since I want to get him quickly what he should do. Then, for the
+	next three weeks, I will use the variable ratio schedule to train him. To be
+	specific, for a period of various days with average of 3, the number of suggers
+	he can get depends on how many days in that period he doesn't watch Mr.Sun and
+	does the disired behavior. By using the variable ratio for the last 3 weeks， I
+	want to longer the extinction time of his disired behavior.
+	
+	\subsection{kind of reinforcer}
+	I used positive reinforcer to train Neo. Since I will give him sugger, which is
+	his favorite, after his response is dirsable, and that can increase the
+	occurance of the desirable 
+\end{document}

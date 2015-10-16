@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1436604420 source:a:\c++\puzzle\main.cpp
+	<iostream>
+	<stdio.h>
+	<string>
+	<vector>
+	<map>
+

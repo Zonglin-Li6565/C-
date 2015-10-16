@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1442090744 source:a:\c++\subarray_uva1211\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+	<math.h>
+
+1442026856 
+
+1442087144 source:/media/zonglin/Programming/C++/Subarray_UVa1211/main.cpp
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+	<math.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+	<math.h>
+

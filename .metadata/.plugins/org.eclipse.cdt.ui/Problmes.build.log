@@ -1,0 +1,19 @@
+20:40:59 **** Incremental Build of configuration Debug for project Problmes ****
+make all 
+Building file: ../src/Problem2.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Problem2.d" -MT"src/Problem2.d" -o "src/Problem2.o" "../src/Problem2.cpp"
+../src/Problem2.cpp: In function ‘int main()’:
+../src/Problem2.cpp:34:10: warning: unused variable ‘pointer3’ [-Wunused-variable]
+  string *pointer3 = &address3;
+          ^
+Finished building: ../src/Problem2.cpp
+ 
+Building target: Problmes
+Invoking: Cross G++ Linker
+g++  -o "Problmes"  ./src/Problem2.o   
+Finished building target: Problmes
+ 
+
+20:41:00 Build Finished (took 535ms)
+

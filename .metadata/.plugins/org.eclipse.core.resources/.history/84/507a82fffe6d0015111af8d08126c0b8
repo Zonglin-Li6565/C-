@@ -1,0 +1,21 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\title{Condition My Friend}
+\date{Oct 10 2015}
+\author{Zonglin Li}
+
+\begin{document}
+\maketitle
+
+\section{Preperation}
+
+	\subsection{Find Neo}
+	Easy to accomplish. I will go to the psychology class with Neo. I can do it on
+	the way. 
+	\subsubsection{Attract his attention to other things}
+	A little bit hard. But I always ask him to look at the squrral on the grasses.
+\section{}
+
+\end{document}

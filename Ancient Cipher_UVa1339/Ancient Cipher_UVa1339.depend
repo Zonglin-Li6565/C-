@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1437191421 source:a:\c++\ancient cipher_uva1339\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<algorithm>
+

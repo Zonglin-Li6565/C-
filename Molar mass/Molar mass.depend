@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1436328433 source:a:\c++\molar mass\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+

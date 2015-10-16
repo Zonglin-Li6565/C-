@@ -1,0 +1,27 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\title{Condition My Friend}
+\date{Oct 10 2015}
+\author{Zonglin Li}
+
+\begin{document}
+\maketitle
+
+\section{Who I want to condition}
+I want to condition my friend Neo to avoid watching a silly
+vedio called Mr.Sun. He has been watching it for several monthes, and he watches
+it everynight.
+
+\section{Why I want to change that behavior}
+Since that vedio is really silly and has no benifit for him, and watching it
+again and again takes him a lot of time supposed to used on other more
+productive things like studying and exercising, I decided to help him 
+	
+\section{Conditioning}
+
+	\subsection{}
+	
+
+\end{document}

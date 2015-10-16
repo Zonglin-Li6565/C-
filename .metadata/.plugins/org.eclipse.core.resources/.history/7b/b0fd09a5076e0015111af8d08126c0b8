@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : The_Triangle.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+	int n;
+	int* _table;
+	scanf("%d", &n);
+
+	return 0;
+}

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1436432450 source:a:\c++\periodic strings\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+

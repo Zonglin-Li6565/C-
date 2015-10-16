@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1435048797 source:a:\c++\maze generator\main.cpp
+	<ctime>
+	<cstdlib>
+	<iostream>
+

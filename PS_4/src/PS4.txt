@@ -1,0 +1,28 @@
+For a brush-up on include statements, please visit http://www.cplusplus.com/forum/articles/10627/
+
+  ____ ____    _  ___   __   
+ / ___/ ___|  / |/ _ \ / /_  
+| |   \___ \  | | (_) | '_ \ 
+| |___ ___) | | |\__, | (_) |
+ \____|____/  |_|  /_/ \___/ 
+
+HOW TO RUN YOUR CODE:
+clang++ main.cpp problem1.cpp problem2.cpp
+
+
+Try running your code right now. You'll obviously see quite a few errors.
+
+Problem 1:
+In main, we are trying to instantiate a problem1 object, and then call one of its functions. However, our compiler
+cannot find class type. However, we can see it all right there in problem1.cpp!!!
+To correctly create a problem1 object, we want our main to know that the file exists. we can do this by including the
+appropriate header file in main.cpp! Create the header file for problem1, and include it in the main.cpp. Be sure to include
+the problem1 header file (.h) in the problem1 source file (.cpp).
+
+
+Problem 2:
+Remember to include any header files for classes you'll be using in main! In problem2, there is something wrong with your header
+file. Remember that the functions defined in your header file are prototypes for the functions defined in the source (.cpp) file.
+
+Problem 3:
+Here, we have an issue with problem3help being included twice. Add include guards where appropriate!

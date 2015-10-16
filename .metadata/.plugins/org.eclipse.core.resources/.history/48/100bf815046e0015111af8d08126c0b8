@@ -1,0 +1,27 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\title{Condition My Friend}
+\date{Oct 10 2015}
+\author{Zonglin Li}
+
+\begin{document}
+\maketitle
+
+\section{Preperation}
+
+	\subsection{Find UCS and UCR}
+	Everytime I poked him, he would tend to escape. So the UCS is I poked him, the
+	UCR is he tried to escape.
+	
+	\subsection{Find CS}
+	I want to condition the ring of elevator in Engineering Library to the UCR
+	stated above.
+	
+\section{Conditioning}
+
+	\subsection{}
+	
+
+\end{document}

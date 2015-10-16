@@ -1,0 +1,28 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\begin{document}
+
+
+\section{Chinese American}
+
+\subsection{History of arrival}
+
+\paragraph
+1864: The central Pacific Railroad Company recruits thousands of Chinese men to work on the first transcontinental railroad and in 1869, the first transcontinental railroad is completed with significant Chinese immigrant labor
+\paragraph
+1870: Congress approved the Naturalization Act, barring Chinese from obtaining U.S. Citizenship
+\paragraph
+1882: Th Chinese Exclusion Act halts Chinese laborer immigration for 10 years and denies Chinese from becoming naturalized US citizens.
+\paragraph
+1890: The Chinese American population represented 107,488 out of a total US populations.
+\paragraph
+1907: San Francisco earth quick and fire. 1. Chinese Town completely leveled.
+
+\subsection{Another subtitle}
+
+More plain text.
+
+
+\end{document}

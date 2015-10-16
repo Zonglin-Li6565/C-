@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1436878194 source:a:\c++\floating point numbers_uva11809\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<map>
+

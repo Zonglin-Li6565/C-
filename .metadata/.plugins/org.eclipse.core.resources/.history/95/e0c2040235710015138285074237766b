@@ -1,0 +1,69 @@
+//============================================================================
+// Name        : King_UVa_515.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <cstdio>
+#include <vector>
+using namespace std;
+
+struct point {
+	vector<point> minus;
+	vector<int> values;
+	int status = 0;
+	int value = 100;
+};
+
+bool toposort(point p);
+
+int main() {
+	int n, m, from, to, value;
+	char comparision[3];
+	while(scanf("%d%d", &n, &m) == 2) {
+		bool result = true;
+		point* points = new point[n + 1];
+		for(int i = 0; i < m; i++) {
+			scanf("%d%d%s%d", &from, &to, comparision, &value);
+			to = to + from;
+			from --;
+			value ++;
+			if(comparision[0] == 'l') {
+				to = to + from;
+				from = to - from;
+				to = to - from;
+				value = 0 - value;
+			}
+			points[to].minus.push_back(points[from]);
+			points[to].values.push_back(value);
+		}
+		for(int i = 1; i < n + 1; i++) {
+			point p = points[i];
+			if(p.status == 0) result = result && toposort(p);
+		}
+		if(result) cout << "true" << endl;
+		else cout << "false" << endl;
+		delete[] points;
+	}
+	return 0;
+}
+
+bool toposort(point p) {
+	if(p.status == -1) return false;
+	p.status = -1;
+	bool result = true;
+	int length = p.minus.size();
+	for(int i = 0 ; i < length; i++) {
+		if(p.minus[i].value <= (p.value - p.values[i])) {
+			p.minus[i].value = p.value - p.values[i];
+			result = result && toposort(p.minus[i]);
+		}else{
+			return false;
+		}
+	}
+	p.status = 1;
+	return result;
+}

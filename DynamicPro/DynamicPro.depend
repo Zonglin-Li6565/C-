@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1440687706 source:a:\c++\dynamicpro\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<math.h>
+

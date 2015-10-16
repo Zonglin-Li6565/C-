@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1442378867 source:a:\c++\8_queens_uva_750\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<cstdlib>
+	<vector>
+	<algorithm>
+

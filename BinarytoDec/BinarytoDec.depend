@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1441125394 source:a:\c++\binarytodec\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<vector>
+	<math.h>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1443413822 source:/mnt/76A0FD4FA0FD15F9/C++/Cow_Marathon/main.cpp
+	<iostream>
+	<stdio.h>
+	<cstdio>
+	<queue>
+	<algorithm>
+

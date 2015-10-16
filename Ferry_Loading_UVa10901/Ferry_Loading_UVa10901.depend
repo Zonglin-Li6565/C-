@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1442198596 source:a:\c++\ferry_loading_uva10901\main.cpp
+	<iostream>
+	<stdio.h>
+
