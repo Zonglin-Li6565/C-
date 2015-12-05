@@ -10,7 +10,16 @@
 
 namespace std
 {
-linkedlist::linkedlist()
+template <typename T>
+linkedlist<T>::helper::~helper()
+{
+	delete next_;
+	delete previous_;
+	delete value_;
+}
+
+template <typename T>
+linkedlist<T>::linkedlist()
 {
 	size_ = 0;
 	head_.next_ = &tail_;
@@ -18,13 +27,13 @@ linkedlist::linkedlist()
 	tail_.previous_ = &head_;
 	tail_.next_ = 0;
 }
-
-void linkedlist::add(double* element)
+template <typename T>
+void linkedlist<T>::add(T* element)
 {
 	insert(element, size_);
 }
-
-void linkedlist::insert(double* element, int index)
+template <typename T>
+void linkedlist<T>::insert(T* element, int index)
 {
 	if(index > size_)
 		throw runtime_error("index out of bound");
@@ -41,8 +50,8 @@ void linkedlist::insert(double* element, int index)
 	current->next_ = newelement;
 	size_ ++;
 }
-
-void linkedlist::remove(int index)
+template <typename T>
+void linkedlist<T>::remove(int index)
 {
 	if(index >= size_)
 		throw runtime_error("index out of bound");
@@ -52,22 +61,24 @@ void linkedlist::remove(int index)
 	current->previous_->next_ = current->next_;
 	current->next_->previous_ = current->previous_;
 	delete current;
+	size_ --;
 }
-
-double* linkedlist::operator[](int index)
+template <typename T>
+T& linkedlist<T>::operator[](int index)
 {
 	if(index >= size_)
 		throw runtime_error("index out of bound");
 	helper* current = &head_;
 	for(int i = 0; i <= index; i++)
 		current = current->next_;
-	return current->value_;
+	return *(current->value_);
 }
-
-linkedlist::~linkedlist()
+template <typename T>
+linkedlist<T>::~linkedlist()
 {
 	for(int i = 0; i < size_; i++)
 		remove(i);
+	delete size_;
 }
 
 } /* namespace std */

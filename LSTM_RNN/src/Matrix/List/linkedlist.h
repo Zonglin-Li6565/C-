@@ -11,23 +11,24 @@
 namespace std
 {
 
-class linkedlist
+template <typename T>class linkedlist
 {
 private:
-	int size_;
 	struct helper{
 		helper* next_;
 		helper* previous_;
-		double* value_;
+		T* value_;
+		~helper();
 	};
 	helper head_;
 	helper tail_;
 public:
+	int size_;
 	linkedlist();
-	void add(double* element);
-	void insert(double* element, int index);
+	void add(T* element);
+	void insert(T* element, int index);
 	void remove(int index);
-	double* operator[](int index);
+	T& operator[](int index);
 	virtual ~linkedlist();
 };
 
